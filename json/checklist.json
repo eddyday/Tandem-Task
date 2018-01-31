@@ -1,0 +1,45 @@
+{
+   "checklist":[
+      {
+         "bullet":"No fees for making purchases abroad"
+      },
+      {
+         "bullet":"Nothing added on top of the Mastercard exchange rate"
+      },
+      {
+         "bullet":"Manage your holiday spending with real time in-app notifications"
+      },
+      {
+         "bullet":"0.5% cashback on all purchases over £1 worldwide"
+      },
+      {
+         "bullet":"Friendly customer support from anywhere with in-app chat"
+      }
+   ],
+   "lowdown":[
+      {
+         "title":"Interest rates",
+         "description":"18.9% per year (variable, representative) for purchases. \n\n18.9% per year (variable, representative) for cash withdrawals. \n\nYour final interest rate may be higher based on your individual circumstances."
+      },
+      {
+         "title":"Cashback",
+         "description":"Earn 0.5% on every purchase above £1 at home and abroad."
+      },
+      {
+         "title":"No fees abroad",
+         "description":"There are no fees for making purchases abroad. Interest will still be charged as normal."
+      },
+      {
+         "title":"Cash withdrawals",
+         "description":"You'll be charged interest from the day you withdraw cash in the UK and abroad. There are no fees for withdrawing cash abroad. In the UK you'll be charged a fee of 2.5%, with a minimum charge of £2.50."
+      },
+      {
+         "title":"Balance Transfers",
+         "description":"This card doesn't offer balance transfers."
+      },
+      {
+         "title":"Fees",
+         "description":"There is a £12 fee if you make a late payment, or your Direct Debit fails. \n\nThere are no overlimit fees."
+      }
+   ]
+}

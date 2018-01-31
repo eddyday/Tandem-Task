@@ -1,0 +1,280 @@
+body {
+	font-family: "Lato", Arial;
+	line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+html {
+	font-size: 12px;
+}
+}
+
+@media (min-width: 768px) {
+html {
+	font-size: 13px;
+}
+}
+
+@media (min-width: 992px) {
+html {
+	font-size: 14px;
+}
+}
+
+@media (min-width: 1200px) {
+html {
+	font-size: 15px;
+}
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: transparent;
+	border: none;
+	margin-bottom: 0;
+}
+.navbar-brand {
+	padding: 0px;
+	height: 60px
+}
+.navbar-brand>img {
+	height: 100%;
+	padding: 10px;
+	width: auto;
+}
+.section {
+	padding: 2rem 0 4rem;
+}
+.section.section-intro {
+	background-image: url(../images/phone-card-top-down@2x.png);
+	background-size: cover;
+	padding-bottom: 5vh;
+}
+.section.section-benefits {
+	padding: 3rem 0 7rem;
+	transition: all ease-in-out 1.5s;
+}
+.section.section-benefits.ng-hide {
+	opacity: 0;
+}
+.section.section-lowdown.ng-hide {
+	opacity: 0;
+}
+.section.section-lowdown {
+	padding: 3rem 0 7rem;
+	transition: all ease-in-out 1.5s;
+}
+.section.section-intro .inner-welcome-container {
+	/*! padding: 1rem 2rem 2rem; */
+	transition: all .3s ease-out;
+}
+.section.section-intro .inner-welcome-container .btn-primary {
+	background-color: rgb(24,31,34);
+	padding: 1rem 3rem 1.1rem;
+	border-radius: 3px;
+	transition: 0.5s;
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #fff;
+	border: 0;
+	/*! width: 100%; */
+	/*! display: inline; */
+	margin-top: 1.2rem;
+	clear: both;
+	text-transform: uppercase;
+}
+.section.section-intro .inner-welcome-container .btn-primary:hover {
+	background-color: rgba(24,31,34,0.7);
+}
+.section.section-intro .inner-welcome-container h1.intro-title {
+	font-weight: 300;
+	line-height: 1.3;
+	display: inline;
+	padding: 0.6rem 0.7rem;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+.section h2.section-title, .h2 {
+	font-size: 3rem;
+	margin-bottom: 3rem;
+	font-weight: 300;
+}
+.lowdown-table {
+	display: block
+}
+.lowdown-table_section {
+	display: flex;
+	flex-wrap: wrap;
+	clear: both;
+}
+.lowdown-table_section > :nth-of-type(2n) > * .lowdown-table-description-content, .lowdown-table_section > :nth-of-type(2n) > * .lowdown-table-title-content {
+	background-color: #f3f6f7
+}
+.lowdown-table-row {
+	width: 100%
+}
+
+@media screen and (min-width:40rem) {
+.lowdown-table-row {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	display: flex
+}
+.lowdown-table-row > .column {
+	-ms-flex: 0 0 33.33333%;
+	flex: 0 0 33.33333%;
+	max-width: 33.33333%
+}
+}
+.lowdown-table-title {
+	-ms-flex: 1 1 0px;
+	flex: 1 1 0px;
+	padding-right: .375rem;
+	min-width: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: -ms-flexbox;
+	display: flex
+}
+
+@media screen and (min-width:320px) {
+.lowdown-table-title {
+	-ms-flex: 0 0 33.33333%;
+	flex: 0 0 33.33333%;
+	padding-right: 0;
+}
+}
+.lowdown-table-title-content {
+	padding: .7rem;
+	display: block;
+	width: 100%;
+}
+.lowdown-table-description {
+	-ms-flex: 1 1 0px;
+	flex: 1 1 0px;
+	min-width: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+@media screen and (min-width:40rem) {
+.lowdown-table-description {
+	-ms-flex: 0 0 66.66667%;
+	flex: 0 0 66.66667%;
+	max-width: 66.66667%;
+	padding-left: 0
+}
+}
+.lowdown-table-description-content {
+	padding-left: .7rem;
+	padding-right: .7rem;
+	padding-bottom: 1rem;
+	display: block;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+@media print, screen and (min-width:40rem) {
+.lowdown-table-description-content {
+	padding-top: 1rem;
+	padding-left: 1.375rem
+}
+}
+
+.lowdown-table-title-content {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+ol {
+	counter-reset: li; /* Initiate a counter */
+	list-style: none; /* Remove default numbering */
+ *list-style: decimal; /* Keep using default numbering for IE6/7 */
+	padding: 0;
+}
+.benefits-list li {
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em 3em;
+ *padding: .4em;
+	margin: .5em 0;
+	color: #333;
+	text-decoration: none;
+	transition: all .3s ease-out;
+	font-size: 1.2rem;
+}
+.benefits-list li:before {
+	content: counter(li);
+	counter-increment: li;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.3em;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	text-align: center;
+	font-weight: bold;
+	transition: all .3s ease-out;
+}
+.ng-hide:not(.ng-hide-animate) {
+	/* Override ng-hide default behaviour */
+	display: block!important;
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+@media (max-width: 767px) {
+.section.section-intro .inner-welcome-container h1, .benefits-list li:before {
+	background-color: rgb(77,246,192);
+}
+.section.section-intro {
+	padding-top: 20vh;
+}
+}
+
+@media (min-width: 768px) {
+.section.section-intro .inner-welcome-container h1, .benefits-list li:before {
+	background-color: rgb(255,115,202);
+}
+.section.section-intro {
+	padding-top: 25vh;
+}
+}
+
+@media (min-width: 992px) {
+.section.section-intro .inner-welcome-container h1, .benefits-list li:before {
+	background-color: rgb(255,167,63);
+}
+.section.section-intro {
+	padding-top: 25vh;
+}
+}
+
+@media (min-width: 1200px) {
+.section.section-intro .inner-welcome-container h1, .benefits-list li:before {
+	background-color: rgb(28,223,254);
+}
+.section.section-intro {
+	padding-top: 40vh;
+}
+}
+
+@media screen and (min-width:768px) {
+.row.flex-row {
+	align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0;
+}
+}
+@media screen and (max-width:767px) {
+.row.flex-row {
+	margin: 0 15px;
+}
+}
