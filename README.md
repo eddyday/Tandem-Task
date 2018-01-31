@@ -13,8 +13,11 @@ The header of the page proved tricky. The included image in the brief, being of 
 I thought about which colours to use. I’m personally partial to the blue but I thought it would be nice to see all the colour choices. I thought it would be cool to change the colour scheme depending on the device the user was viewing the site on. So I did just that and the colour scheme changes as thus:
 
 Mobile: Mint
+
 Small device: Pink
+
 Medium-sized device: Orange
+
 Desktop: Blue
 
 Thought that was an interesting way of getting the various colours represented in their own way!
